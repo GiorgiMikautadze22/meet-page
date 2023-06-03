@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display";
+}
+
+:root {
+  --graysh: #4d96a9;
+  --purple: #855fb1;
+  --blackish: #28283d;
+  --gray: #87879d;
+  --lightblue: #8fe3f9;
+  --pink: #d9b8ff;
+  --white: #fafafa;
+}
+
+body {
+  background-color: var(--white);
+}
+
+.logo {
+  display: flex;
+  margin: auto;
+  margin-top: 51px;
+  margin-bottom: 56px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--blackish);
+  margin: 48px 24px 24px 24px;
+  text-align: center;
+  line-height: 44px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--graysh);
+  text-align: center;
+  margin: 0px 24px 32px 24px;
+  line-height: 26px;
+}
+
+button {
+  width: 193px;
+  height: 58px;
+  border-radius: 29px;
+  background-color: var(--graysh);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 900;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.version {
+  color: var(--lightblue);
+  font-size: 16px;
+  font-weight: 900;
+  margin: auto;
+  margin-left: 4px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
